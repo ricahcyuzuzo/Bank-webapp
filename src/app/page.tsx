@@ -1,4 +1,5 @@
 import Reveal from "@/components/Reveal";
+import AIAssistantPreview from "@/components/AIAssistantPreview";
 import SmoothScrollLink from "@/components/SmoothScrollLink";
 import ThemeToggle from "@/components/ThemeToggle";
 import MobileNav from "@/components/MobileNav";
@@ -65,6 +66,7 @@ export default function Home() {
       </header>
 
       <main>
+        <AIAssistantPreview />
         <section className="mx-auto max-w-6xl px-4 pb-10 pt-14 sm:px-6 sm:pb-14 sm:pt-20">
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <Reveal className="" delayMs={0}>
